@@ -22,7 +22,7 @@ const Navigation = () => {
               <Stethoscope className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-primary-foreground">MediPredict</h1>
+              <h1 className="text-xl font-bold text-primary-foreground">Muhammad Maaz</h1>
               <p className="text-xs text-primary-foreground/80">AI Disease Prediction</p>
             </div>
           </motion.div>
