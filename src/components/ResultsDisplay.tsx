@@ -222,31 +222,7 @@ const ResultsDisplay = ({ result }: ResultsDisplayProps) => {
             </Alert>
           </motion.div>
 
-          {/* Action Buttons */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 1.0 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button className="bg-gradient-primary text-primary-foreground shadow-medical hover:shadow-lg transition-all">
-                <Download className="mr-2 w-4 h-4" />
-                Download Report
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                <Share2 className="mr-2 w-4 h-4" />
-                Share Results
-              </Button>
-            </motion.div>
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button variant="secondary">
-                New Assessment
-              </Button>
-            </motion.div>
-          </motion.div>
+
         </motion.div>
       </div>
     </section>

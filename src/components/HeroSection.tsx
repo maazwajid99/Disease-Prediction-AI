@@ -41,33 +41,7 @@ const HeroSection = () => {
               </p>
             </motion.div>
 
-            {/* CTA Buttons */}
-            <motion.div 
-              className="flex flex-col sm:flex-row gap-4"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-            >
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button 
-                  size="lg" 
-                  className="bg-gradient-primary text-primary-foreground shadow-medical hover:shadow-lg transition-all"
-                >
-                  Start Prediction
-                  <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                >
-                  Learn More
-                </Button>
-              </motion.div>
-            </motion.div>
-
+            
             {/* Trust Indicators */}
             <motion.div 
               className="flex items-center space-x-6 pt-8"

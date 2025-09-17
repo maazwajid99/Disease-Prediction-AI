@@ -47,15 +47,6 @@ const Navigation = () => {
             </motion.a>
           </div>
 
-          {/* CTA Button */}
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Button className="bg-card text-primary shadow-medical hover:shadow-lg transition-all hover:bg-card/90">
-              Get Started
-            </Button>
-          </motion.div>
         </div>
       </div>
     </motion.nav>
